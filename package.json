@@ -1,0 +1,28 @@
+{
+  "name": "@dmx/sample-server",
+  "version": "1.0.0",
+  "description": "Sample server code for developer evaluation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmx-io/sample-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmx-io/sample-server/issues"
+  },
+  "homepage": "https://github.com/dmx-io/sample-server#readme",
+  "dependencies": {
+    "joi-objectid": "^2.0.0",
+    "koa": "^2.4.1",
+    "koa-joi-router": "^5.1.0",
+    "mockgoose": "^7.3.3",
+    "mongoose": "^5.0.0-rc1",
+    "require-directory": "^2.1.1"
+  }
+}
